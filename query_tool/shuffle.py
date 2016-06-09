@@ -4,7 +4,7 @@
 import argparse
 import qslib
 import random
-
+import sys
 
 # shuffle rows of a csv file
 def main():
