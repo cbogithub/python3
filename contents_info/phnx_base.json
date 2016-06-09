@@ -1,0 +1,751 @@
+{
+  "vivame.cn": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_58_14.545",
+      "download_folder": "reference-vivame",
+      "doc_count": 0
+    }
+  },
+  "xiachufang.com": {
+    "showRecipe": {
+      "timestamp": "2016-02-18-13_33_27.146",
+      "download_folder": "recipe-xiachufang",
+      "doc_count": 0
+    }
+  },
+  "zhuishushenqi.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-19_22_43.771",
+      "download_folder": "books-zhuishushenqi",
+      "doc_count": 0
+    }
+  },
+  "lrts.me": {
+    "showBook": {
+      "timestamp": "2016-02-18-13_22_39.932",
+      "download_folder": "books-lrts",
+      "doc_count": 0
+    }
+  },
+  "tripadvisor.cn": {
+    "showHotel": {
+      "timestamp": "2016-02-18-16_07_02.158",
+      "download_folder": "hotels-tripadvisor",
+      "doc_count": 0
+    }
+  },
+  "y.qq.com": {
+    "showAlbum": {
+      "timestamp": "2016-02-18-15_14_47.190",
+      "download_folder": "music-qq-album",
+      "doc_count": 0
+    },
+    "showArtist": {
+      "timestamp": "2016-02-17-02_32_12.879",
+      "download_folder": "music-qq-artist",
+      "doc_count": 0
+    },
+    "showRecording": {
+      "timestamp": "2016-02-19-13_06_44.410",
+      "download_folder": "music-qq-recording",
+      "doc_count": 0
+    }
+  },
+  "douban.fm": {
+    "showPodcast": {
+      "timestamp": "2016-02-18-16_43_46.078",
+      "download_folder": "music-douban-podcast",
+      "doc_count": 0
+    }
+  },
+  "hichao.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-17_53_38.023",
+      "download_folder": "ecom-hichao",
+      "doc_count": 0
+    }
+  },
+  "maoyan.com": {
+    "showLocalBusiness": {
+      "timestamp": "2016-01-24-22_57_05.909",
+      "download_folder": "local-maoyan",
+      "doc_count": 0
+    }
+  },
+  "ctrip.com": {
+    "showHotel": {
+      "timestamp": "2016-02-19-13_17_12.962",
+      "download_folder": "hotels-ctrip",
+      "doc_count": 0
+    }
+  },
+  "piao.qq.com": {
+    "showEvent": {
+      "timestamp": "2016-01-19-17_32_07.532",
+      "download_folder": "event-qq-piao",
+      "doc_count": 0
+    }
+  },
+  "duokan.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-08_27_06.747",
+      "download_folder": "books-duokan",
+      "doc_count": 0
+    }
+  },
+  "acfun.tv": {
+    "showVideoSeries": {
+      "timestamp": "2016-02-18-17_43_09.853",
+      "download_folder": "videos-acfun",
+      "doc_count": 0
+    },
+    "showVideo": {
+      "timestamp": "2016-02-18-17_38_50.376",
+      "download_folder": "videos-acfun-series",
+      "doc_count": 0
+    }
+  },
+  "qunar.com": {
+    "showHotel": {
+      "timestamp": "2016-02-18-16_01_31.347",
+      "download_folder": "hotels-qunar",
+      "doc_count": 0
+    }
+  },
+  "tv.sohu.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-08_31_35.948",
+      "download_folder": "videos-sohu-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-08_41_32.790",
+      "download_folder": "videos-sohu-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-08_36_36.509",
+      "download_folder": "videos-sohu-tv",
+      "doc_count": 0
+    }
+  },
+  "iqiyi.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-08_06_46.913",
+      "download_folder": "videos-iqiyi-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-08_16_41.331",
+      "download_folder": "videos-iqiyi-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-08_11_28.390",
+      "download_folder": "videos-iqiyi-tv",
+      "doc_count": 0
+    }
+  },
+  "zhihu.com": {
+    "showQuestion": {
+      "timestamp": "2016-02-18-16_12_12.282",
+      "download_folder": "reference-zhihu",
+      "doc_count": 0
+    }
+  },
+  "waimai.meituan.com": {
+    "showRestaurant": {
+      "timestamp": "2016-02-18-17_04_55.256",
+      "download_folder": "local-meituan-delivery",
+      "doc_count": 0
+    }
+  },
+  "ele.me": {
+    "showRestaurant": {
+      "timestamp": "2016-02-18-17_01_51.040",
+      "download_folder": "local-ele-delivery",
+      "doc_count": 0
+    }
+  },
+  "youku.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-08_53_23.627",
+      "download_folder": "videos-youku-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-09_01_58.944",
+      "download_folder": "videos-youku-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-08_57_40.470",
+      "download_folder": "videos-youku-tv",
+      "doc_count": 0
+    }
+  },
+  "dianping.com": {
+    "showLocalBusiness": {
+      "timestamp": "2016-02-24-01_55_16.860",
+      "download_folder": "local-dianping",
+      "doc_count": 0
+    },
+    "showDeal": {
+      "timestamp": "2016-02-24-01_28_25.326",
+      "download_folder": "deal-dianping",
+      "doc_count": 0
+    },
+    "showRestaurant": {
+      "timestamp": "2016-02-24-02_20_28.956",
+      "download_folder": "restaurant-dianping",
+      "doc_count": 0
+    }
+  },
+  "meitian.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_27_13.387",
+      "download_folder": "reference-meitian",
+      "doc_count": 0
+    }
+  },
+  "jd.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-16_13_48.312",
+      "download_folder": "ecom-jd",
+      "doc_count": 0
+    }
+  },
+  "kaolafm.com": {
+    "showPodcast": {
+      "timestamp": "2016-02-18-16_48_15.974",
+      "download_folder": "music-kaola-podcast",
+      "doc_count": 0
+    }
+  },
+  "ttpod.com": {
+    "showRecording": {
+      "timestamp": "2016-02-19-13_46_58.481",
+      "download_folder": "music-ttpod-recording",
+      "doc_count": 0
+    }
+  },
+  "hunantv.com": {
+    "showTvShow": {
+      "timestamp": "2016-02-18-13_56_53.130",
+      "download_folder": "videos-hunan-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-14_01_57.199",
+      "download_folder": "videos-hunan-tv",
+      "doc_count": 0
+    }
+  },
+  "ireader.com": {
+    "showBook": {
+      "timestamp": "2016-02-19-13_44_31.726",
+      "download_folder": "books-ireader",
+      "doc_count": 0
+    }
+  },
+  "readingjoy.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-13_27_32.776",
+      "download_folder": "books-readingjoy",
+      "doc_count": 0
+    }
+  },
+  "duitang.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_49_25.267",
+      "download_folder": "reference-duitang",
+      "doc_count": 0
+    }
+  },
+  "mafengwo.cn": {
+    "showHotel": {
+      "timestamp": "2016-02-19-13_27_19.029",
+      "download_folder": "hotels-mafengwo",
+      "doc_count": 0
+    }
+  },
+  "movie.douban.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-08_22_11.526",
+      "download_folder": "videos-douban",
+      "doc_count": 0
+    }
+  },
+  "baofeng.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-17_22_56.949",
+      "download_folder": "videos-baofeng-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-17_27_29.958",
+      "download_folder": "videos-baofeng-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-17_32_27.712",
+      "download_folder": "videos-baofeng-tv",
+      "doc_count": 0
+    }
+  },
+  "dict.youdao.com": {
+    "showWord": {
+      "timestamp": "2016-02-18-17_57_58.960",
+      "download_folder": "reference-youdao",
+      "doc_count": 0
+    }
+  },
+  "open.163.com": {
+    "showCourse": {
+      "timestamp": "2016-01-19-13_22_11.336",
+      "download_folder": "videos-open-163",
+      "doc_count": 0
+    }
+  },
+  "neihanshequ.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_32_41.226",
+      "download_folder": "reference-neihanshequ",
+      "doc_count": 0
+    }
+  },
+  "yiwang.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-18_07_17.717",
+      "download_folder": "ecom-yiwang",
+      "doc_count": 0
+    }
+  },
+  "beibei.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-16_29_33.043",
+      "download_folder": "ecom-beibei",
+      "doc_count": 0
+    }
+  },
+  "budejie.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_53_29.979",
+      "download_folder": "reference-budejie",
+      "doc_count": 0
+    }
+  },
+  "gewara.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-13_47_25.560",
+      "download_folder": "videos-gewara",
+      "doc_count": 0
+    }
+  },
+  "waimai.baidu.com": {
+    "showRestaurant": {
+      "timestamp": "2016-01-19-14_48_19.420",
+      "download_folder": "local-baidu-delivery",
+      "doc_count": 0
+    }
+  },
+  "music.baidu.com": {
+    "showRecording": {
+      "timestamp": "2016-02-18-16_35_55.648",
+      "download_folder": "music-baidu-recording",
+      "doc_count": 0
+    }
+  },
+  "qiushibaike.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_43_32.786",
+      "download_folder": "reference-qiushibaike",
+      "doc_count": 0
+    }
+  },
+  "ximalaya.com": {
+    "showPodcast": {
+      "timestamp": "2016-02-19-13_58_11.748",
+      "download_folder": "music-ximalaya-podcast",
+      "doc_count": 0
+    }
+  },
+  "tudou.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-17_08_08.888",
+      "download_folder": "videos-tudou-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-17_12_56.926",
+      "download_folder": "videos-tudou-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-17_17_22.906",
+      "download_folder": "videos-tudou-tv",
+      "doc_count": 0
+    }
+  },
+  "bilibili.com": {
+    "showVideoSeries": {
+      "timestamp": "2016-02-18-17_48_06.329",
+      "download_folder": "videos-bilibili-series",
+      "doc_count": 0
+    },
+    "showVideo": {
+      "timestamp": "2016-01-19-15_37_52.950",
+      "download_folder": "videos-bilibili",
+      "doc_count": 0
+    }
+  },
+  "lizhi.fm": {
+    "showPodcast": {
+      "timestamp": "2016-02-18-17_01_53.265",
+      "download_folder": "music-lizhi-podcast",
+      "doc_count": 0
+    }
+  },
+  "kugou.com": {
+    "showRecording": {
+      "timestamp": "2016-02-19-13_43_18.959",
+      "download_folder": "music-kugou-recording",
+      "doc_count": 0
+    },
+    "showArtist": {
+      "timestamp": "2016-02-17-02_47_10.468",
+      "download_folder": "music-kugou-artist",
+      "doc_count": 0
+    }
+  },
+  "meituan.com": {
+    "showDeal": {
+      "timestamp": "2016-02-24-01_37_58.702",
+      "download_folder": "deal-meituan",
+      "doc_count": 0
+    }
+  },
+  "iciba.com": {
+    "showWord": {
+      "timestamp": "2016-02-18-18_03_41.606",
+      "download_folder": "reference-iciba",
+      "doc_count": 0
+    }
+  },
+  "book.qq.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-16_34_33.523",
+      "download_folder": "books-qq",
+      "doc_count": 0
+    }
+  },
+  "meishichina.com": {
+    "showRecipe": {
+      "timestamp": "2016-02-18-13_42_58.553",
+      "download_folder": "recipe-meishichina",
+      "doc_count": 0
+    }
+  },
+  "kuwo.cn": {
+    "showRecording": {
+      "timestamp": "2016-02-23-03_47_28.992",
+      "download_folder": "music-kuwo-recording",
+      "doc_count": 0
+    }
+  },
+  "tyread.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-08_47_50.062",
+      "download_folder": "books-tyread",
+      "doc_count": 0
+    }
+  },
+  "mtime.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-13_53_07.818",
+      "download_folder": "videos-mtime",
+      "doc_count": 0
+    }
+  },
+  "fun.tv": {
+    "showMovie": {
+      "timestamp": "2016-02-18-07_56_35.086",
+      "download_folder": "videos-funtv-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-07_51_49.334",
+      "download_folder": "videos-funtv-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-08_01_43.726",
+      "download_folder": "videos-funtv-tv",
+      "doc_count": 0
+    }
+  },
+  "v.qq.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-14_07_17.615",
+      "download_folder": " videos-qq-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-14_17_47.387",
+      "download_folder": "videos-qq-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-14_13_05.330",
+      "download_folder": "videos-qq-tv",
+      "doc_count": 0
+    }
+  },
+  "mia.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-16_26_39.148",
+      "download_folder": "ecom-mia",
+      "doc_count": 0
+    }
+  },
+  "mogujie.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-18_18_09.362",
+      "download_folder": "ecom-mogujie",
+      "doc_count": 0
+    }
+  },
+  "lanrenzhoumo.com": {
+    "showEvent": {
+      "timestamp": "2016-02-18-16_43_21.131",
+      "download_folder": "event-lanrenzhoumo",
+      "doc_count": 0
+    }
+  },
+  "music.163.com": {
+    "showAlbum": {
+      "timestamp": "2016-02-18-15_46_17.773",
+      "download_folder": "music-163-album",
+      "doc_count": 0
+    },
+    "showArtist": {
+      "timestamp": "2016-02-17-02_42_06.249",
+      "download_folder": "music-163-artist",
+      "doc_count": 0
+    },
+    "showRecording": {
+      "timestamp": "2016-02-19-13_07_04.405",
+      "download_folder": "music-163-recording",
+      "doc_count": 0
+    }
+  },
+  "vip.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-16_22_27.352",
+      "download_folder": "ecom-vip",
+      "doc_count": 0
+    }
+  },
+  "xiami.com": {
+    "showAlbum": {
+      "timestamp": "2016-02-24-14_04_17.602",
+      "download_folder": "music-xiami-album",
+      "doc_count": 0
+    },
+    "showArtist": {
+      "timestamp": "2016-02-24-14_07_55.202",
+      "download_folder": "music-xiami-artist",
+      "doc_count": 0
+    },
+    "showRecording": {
+      "timestamp": "2016-02-24-14_13_25.626",
+      "download_folder": "music-xiami-recording",
+      "doc_count": 0
+    }
+  },
+  "xm.91.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-19_12_43.154",
+      "download_folder": "books-xm",
+      "doc_count": 0
+    }
+  },
+  "tuniu.com": {
+    "showHotel": {
+      "timestamp": "2016-02-18-15_45_08.290",
+      "download_folder": "hotels-tuniu",
+      "doc_count": 0
+    }
+  },
+  "weibo.com": {
+    "showBlog": {
+      "timestamp": "2016-02-18-16_30_57.036",
+      "download_folder": "social-weibo",
+      "doc_count": 0
+    }
+  },
+  "smzdm.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_22_41.483",
+      "download_folder": "reference-smzdm",
+      "doc_count": 0
+    }
+  },
+  "daily.zhihu.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-18_37_17.997",
+      "download_folder": "reference-daily-zhihu",
+      "doc_count": 0
+    }
+  },
+  "ly.com": {
+    "showHotel": {
+      "timestamp": "2016-02-18-15_53_44.818",
+      "download_folder": "hotels-ly",
+      "doc_count": 0
+    }
+  },
+  "duomi.com": {
+    "showAlbum": {
+      "timestamp": "2016-02-18-15_05_14.881",
+      "download_folder": "music-duomi",
+      "doc_count": 0
+    }
+  },
+  "36kr.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-19_02_28.074",
+      "download_folder": "reference-36kr",
+      "doc_count": 0
+    }
+  },
+  "redbaby.suning.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-16_25_32.908",
+      "download_folder": "ecom-redbaby",
+      "doc_count": 0
+    }
+  },
+  "qidian.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-09_07_58.788",
+      "download_folder": "books-qidian",
+      "doc_count": 0
+    }
+  },
+  "damai.cn": {
+    "showEvent": {
+      "timestamp": "2016-02-18-16_37_11.559",
+      "download_folder": "event-damai",
+      "doc_count": 0
+    }
+  },
+  "jianshu.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-19_32_54.156",
+      "download_folder": "reference-jianshu",
+      "doc_count": 0
+    }
+  },
+  "letv.com": {
+    "showMovie": {
+      "timestamp": "2016-02-18-14_21_57.041",
+      "download_folder": "videos-letv-movie",
+      "doc_count": 0
+    },
+    "showTvShow": {
+      "timestamp": "2016-02-18-14_37_55.669",
+      "download_folder": "videos-letv-show",
+      "doc_count": 0
+    },
+    "showTvSeries": {
+      "timestamp": "2016-02-18-14_37_58.594",
+      "download_folder": "videos-letv-tv",
+      "doc_count": 0
+    }
+  },
+  "qdaily.com": {
+    "showArticle": {
+      "timestamp": "2016-02-18-19_27_24.100",
+      "download_folder": "event-qdaily",
+      "doc_count": 0
+    }
+  },
+  "jumei.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-18_12_48.718",
+      "download_folder": "ecom-jumei",
+      "doc_count": 0
+    }
+  },
+  "suning.com": {
+    "showProduct": {
+      "timestamp": "2016-02-18-16_21_01.707",
+      "download_folder": "ecom-suning",
+      "doc_count": 0
+    }
+  },
+  "qingting.fm": {
+    "showPodcast": {
+      "timestamp": "2016-02-18-16_50_46.764",
+      "download_folder": "music-qingting-podcast",
+      "doc_count": 0
+    }
+  },
+  "read.10086.cn": {
+    "showBook": {
+      "timestamp": "2016-02-18-19_08_24.768",
+      "download_folder": "books-cmread",
+      "doc_count": 0
+    }
+  },
+  "dayima.com": {
+    "showArticle": {
+      "timestamp": "2016-02-19-15_11_35.311",
+      "download_folder": "reference-dayima",
+      "doc_count": 0
+    }
+  },
+  "shuqi.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-16_36_58.216",
+      "download_folder": "books-shuqi",
+      "doc_count": 0
+    }
+  },
+  "event.douban.com": {
+    "showEvent": {
+      "timestamp": "2016-02-19-14_00_10.895",
+      "download_folder": "event-douban",
+      "doc_count": 0
+    }
+  },
+  "haodou.com": {
+    "showRecipe": {
+      "timestamp": "2016-02-18-13_37_57.935",
+      "download_folder": "recipe-haodou",
+      "doc_count": 0
+    }
+  },
+  "read.douban.com": {
+    "showBook": {
+      "timestamp": "2016-02-18-19_17_33.685",
+      "download_folder": "books-douban",
+      "doc_count": 0
+    }
+  },
+  "wanzhoumo.com": {
+    "showEvent": {
+      "timestamp": "2016-02-18-16_42_47.306",
+      "download_folder": "event-wanzhoumo",
+      "doc_count": 0
+    }
+  },
+  "drama.gewara.com": {
+    "showEvent": {
+      "timestamp": "2016-02-19-14_04_45.160",
+      "download_folder": "event-gewara",
+      "doc_count": 0
+    }
+  }
+}

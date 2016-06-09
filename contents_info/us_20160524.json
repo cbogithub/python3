@@ -1,0 +1,1216 @@
+{
+  "canary": {
+    "makemytrip.com": {
+      "showHotelById": {
+        "download_folder": "hotels-makemytrip",
+        "timestamp": "2016-05-21-23_17_50.042",
+        "doc_count": 4858
+      }
+    },
+    "askme.com": {
+      "showProductById": {
+        "download_folder": "ecom-askme",
+        "timestamp": "2016-05-21-01_07_18.657",
+        "doc_count": 9396
+      }
+    },
+    "last.fm": {
+      "showEventById": {
+        "download_folder": "event-last-fm",
+        "timestamp": "2016-05-21-23_20_03.642",
+        "doc_count": 977
+      },
+      "showAlbumById": {
+        "download_folder": "music-last-fm",
+        "timestamp": "2016-05-21-23_17_45.379",
+        "doc_count": 93044
+      }
+    },
+    "fox.com": {
+      "viewShowsDetails": {
+        "download_folder": "tv-fox",
+        "timestamp": "2016-05-21-21_02_56.303",
+        "doc_count": 51
+      }
+    },
+    "rediff.com": {
+      "showNewsArticleById": {
+        "download_folder": "news-rediff",
+        "timestamp": "2016-05-25-00_14_33.703",
+        "doc_count": 54
+      }
+    },
+    "buzzfeed.com": {
+      "showArticleById": {
+        "download_folder": "news-buzzfeed",
+        "timestamp": "2016-05-25-00_02_20.481",
+        "doc_count": 488
+      }
+    },
+    "eventbrite.com": {
+      "showEventDetailsById": {
+        "download_folder": "event-eventbrite",
+        "timestamp": "2016-05-21-21_08_24.407",
+        "doc_count": 22652
+      }
+    },
+    "youtube.com": {
+      "watchVideo": {
+        "download_folder": "video-youtube",
+        "timestamp": "2016-05-21-23_44_03.957",
+        "doc_count": 4224
+      }
+    },
+    "yelp.com": {
+      "showEventById": {
+        "download_folder": "event-yelp",
+        "timestamp": "2016-05-21-23_41_46.394",
+        "doc_count": 5379
+      }
+    },
+    "espn.go.com": {
+      "showTeamById": {
+        "download_folder": "sports-espn",
+        "timestamp": "2016-05-22-22_35_54.901",
+        "doc_count": 727
+      }
+    },
+    "imdb.com": {
+      "showMovieById": {
+        "download_folder": "movie-imdb-movie",
+        "timestamp": "2016-05-21-23_15_20.129",
+        "doc_count": 1800340
+      },
+      "showActorDetails": {
+        "download_folder": "movie-imdb-actors",
+        "timestamp": "2016-05-21-23_16_44.240",
+        "doc_count": 5111530
+      }
+    },
+    "zappos.com": {
+      "showProduct": {
+        "download_folder": "ecom-zappos",
+        "timestamp": "2016-05-21-23_44_12.888",
+        "doc_count": 72075
+      }
+    },
+    "zomato.com": {
+      "showRestaurantById": {
+        "download_folder": "local-zomato",
+        "timestamp": "2016-05-22-00_05_38.292",
+        "doc_count": 421510
+      }
+    },
+    "etsy.com": {
+      "showProductById": {
+        "download_folder": "ecom-etsy",
+        "timestamp": "2016-05-24-20_04_43.603",
+        "doc_count": 12340352
+      }
+    },
+    "washingtonpost.com": {
+      "showArticleByDetails": {
+        "download_folder": "news-washingtonpost",
+        "timestamp": "2016-05-25-00_12_46.297",
+        "doc_count": 76
+      }
+    },
+    "theguardian.com": {
+      "showNewsByNewsUrl": {
+        "download_folder": "news-theguardian",
+        "timestamp": "2016-05-25-00_13_32.281",
+        "doc_count": 782
+      }
+    },
+    "abc.go.com": {
+      "showSeries": {
+        "download_folder": "tv-abc",
+        "timestamp": "2016-05-24-19_17_26.634",
+        "doc_count": 31
+      }
+    },
+    "eat24.com": {
+      "showRestaurant": {
+        "download_folder": "local-eat24",
+        "timestamp": "2016-05-21-21_00_09.659",
+        "doc_count": 30409
+      }
+    },
+    "fandango.com": {
+      "showMovieDetailsByMovieId": {
+        "download_folder": "movie-fandango-movie",
+        "timestamp": "2016-05-24-19_58_24.189",
+        "doc_count": 335
+      },
+      "showTheaterDetailsByTheaterId": {
+        "download_folder": "movie-fandango-theater",
+        "timestamp": "2016-05-18-07_37_45.597",
+        "doc_count": 3707
+      }
+    },
+    "hulu.com": {
+      "showMovie": {
+        "download_folder": "movie-hulu",
+        "timestamp": "2016-05-21-23_03_43.658",
+        "doc_count": 3419
+      },
+      "viewShow": {
+        "download_folder": "tv-hulu",
+        "timestamp": "2016-05-21-23_03_38.416",
+        "doc_count": 2924
+      }
+    },
+    "flipkart.com": {
+      "showProductById": {
+        "download_folder": "ecom-flipkart",
+        "timestamp": "2016-05-21-21_12_12.206",
+        "doc_count": 285071
+      }
+    },
+    "yellowpages.com": {
+      "showBiz": {
+        "download_folder": "local-yellowpage",
+        "timestamp": "2016-05-23-17_39_31.797",
+        "doc_count": 20649861
+      }
+    },
+    "zillow.com": {
+      "showHomeDetails": {
+        "download_folder": "realestate-zillow",
+        "timestamp": "2016-05-21-23_55_54.933",
+        "doc_count": 114185
+      }
+    },
+    "airbnb.com": {
+      "showRoom": {
+        "download_folder": "hotels-airbnb",
+        "timestamp": "2016-05-21-01_11_18.834",
+        "doc_count": 204657
+      }
+    },
+    "goibibo.com": {
+      "showHotelDetails": {
+        "download_folder": "hotels-goibibo",
+        "timestamp": "2016-05-21-21_05_54.850",
+        "doc_count": 30423
+      }
+    },
+    "myntra.com": {
+      "showProductById": {
+        "download_folder": "ecom-myntra",
+        "timestamp": "2016-05-21-23_26_49.773",
+        "doc_count": 747199
+      }
+    },
+    "expedia.com": {
+      "showHotelDetailsByHotelId": {
+        "download_folder": "hotels-expedia",
+        "timestamp": "2016-05-21-21_03_06.719",
+        "doc_count": 53846
+      }
+    },
+    "foursquare.com": {
+      "showVenueById": {
+        "download_folder": "local-foursquare",
+        "timestamp": "2016-05-21-23_01_59.614",
+        "doc_count": 5278658
+      }
+    },
+    "poshmark.com": {
+      "showProductById": {
+        "download_folder": "ecom-poshmark",
+        "timestamp": "2016-05-24-19_58_49.071",
+        "doc_count": 57185
+      }
+    },
+    "amazon.in": {
+      "showProductById": {
+        "download_folder": "ecom-amazon-in",
+        "timestamp": "2016-05-21-01_07_36.008",
+        "doc_count": 180972
+      }
+    },
+    "foxnews.com": {
+      "showArticle": {
+        "download_folder": "news-foxnews",
+        "timestamp": "2016-05-25-00_11_56.209",
+        "doc_count": 1035
+      }
+    },
+    "wynk.in": {
+      "playSongById": {
+        "download_folder": "music-wynk-in",
+        "timestamp": "2016-05-21-23_55_29.500",
+        "doc_count": 1694951
+      }
+    },
+    "livingsocial.com": {
+      "showDeal": {
+        "download_folder": "deals-livingsocial",
+        "timestamp": "2016-05-22-22_39_08.049",
+        "doc_count": 19614
+      }
+    },
+    "gaana.com": {
+      "playSongByName": {
+        "download_folder": "music-gaana",
+        "timestamp": "2016-05-21-21_03_08.962",
+        "doc_count": 2448
+      }
+    },
+    "snapdeal.com": {
+      "showProductById": {
+        "download_folder": "ecom-snapdeal",
+        "timestamp": "2016-05-21-23_50_47.045",
+        "doc_count": 606776
+      }
+    },
+    "eventful.com": {
+      "showEventById": {
+        "download_folder": "event-eventful",
+        "timestamp": "2016-05-21-06_24_20.044",
+        "doc_count": 0
+      }
+    },
+    "bleacherreport.com": {
+      "showArticleById": {
+        "download_folder": "news-bleacherreport",
+        "timestamp": "2016-05-25-00_13_11.049",
+        "doc_count": 310
+      }
+    },
+    "aliexpress.com": {
+      "showItemById": {
+        "download_folder": "ecom-aliexpress",
+        "timestamp": "2016-05-21-01_15_35.909",
+        "doc_count": 945252
+      }
+    },
+    "vividseats.com": {
+      "showEventById": {
+        "download_folder": "event-vividseats",
+        "timestamp": "2016-05-12-22_40_57.317",
+        "doc_count": 0
+      }
+    },
+    "meetup.com": {
+      "showEventDetailsById": {
+        "download_folder": "event-meetup",
+        "timestamp": "2016-05-21-23_45_48.582",
+        "doc_count": 61135
+      }
+    },
+    "jabong.com": {
+      "showProduct": {
+        "download_folder": "ecom-jabong",
+        "timestamp": "2016-05-21-23_15_20.391",
+        "doc_count": 11163
+      }
+    },
+    "tripadvisor.com": {
+      "showHotel": {
+        "download_folder": "hotels-tripadvisor",
+        "timestamp": "2016-05-21-23_44_27.236",
+        "doc_count": 89046
+      }
+    },
+    "cricbuzz.com": {
+      "showCricketNewsById": {
+        "download_folder": "news-cricbuzz",
+        "timestamp": "2016-05-25-00_03_09.314",
+        "doc_count": 50
+      }
+    },
+    "bookmyshow.com": {
+      "showMovieDetails": {
+        "download_folder": "movie-bookmyshow",
+        "timestamp": "2016-05-21-20_58_10.273",
+        "doc_count": 768
+      }
+    },
+    "vevo.com": {
+      "showVideoByUrl": {
+        "download_folder": "video-vevo",
+        "timestamp": "2016-05-21-23_44_08.273",
+        "doc_count": 149309
+      }
+    },
+    "groupon.com": {
+      "showDealByBiz": {
+        "download_folder": "deals-groupon",
+        "timestamp": "2016-05-21-21_12_10.624",
+        "doc_count": 44522
+      }
+    },
+    "techcrunch.com": {
+      "showArticleDetail": {
+        "download_folder": "news-techcrunch",
+        "timestamp": "2016-05-25-00_05_53.820",
+        "doc_count": 101
+      }
+    },
+    "cnn.com": {
+      "showNews": {
+        "download_folder": "news-cnn",
+        "timestamp": "2016-05-25-00_12_20.878",
+        "doc_count": 931
+      }
+    },
+    "timesofindia.indiatimes.com": {
+      "showNewsById": {
+        "download_folder": "news-timesofindia",
+        "timestamp": "2016-05-25-00_14_08.613",
+        "doc_count": 1553
+      }
+    },
+    "nbcnews.com": {
+      "showNews": {
+        "download_folder": "news-nbcnews",
+        "timestamp": "2016-05-25-00_01_34.510",
+        "doc_count": 111
+      }
+    },
+    "abcnews.go.com": {
+      "showNewsItem": {
+        "download_folder": "news-abcnews",
+        "timestamp": "2016-05-25-00_00_44.427",
+        "doc_count": 268
+      }
+    },
+    "engadget.com": {
+      "showArticleByDetails": {
+        "download_folder": "news-engadget",
+        "timestamp": "2016-05-25-00_03_30.006",
+        "doc_count": 92
+      }
+    },
+    "shopclues.com": {
+      "showProductByName": {
+        "download_folder": "ecom-shopclues",
+        "timestamp": "2016-05-21-23_40_20.278",
+        "doc_count": 216114
+      }
+    },
+    "hotstar.com": {
+      "playVideoByUrl": {
+        "download_folder": "video-hotstar",
+        "timestamp": "2016-05-21-23_04_42.673",
+        "doc_count": 63279
+      }
+    }
+  },
+  "usw1-prod": {
+    "makemytrip.com": {
+      "showHotelById": {
+        "download_folder": "hotels-makemytrip",
+        "timestamp": "2016-05-21-23_17_50.042",
+        "doc_count": 4858
+      }
+    },
+    "askme.com": {
+      "showProductById": {
+        "download_folder": "ecom-askme",
+        "timestamp": "2016-05-21-01_07_18.657",
+        "doc_count": 9396
+      }
+    },
+    "last.fm": {
+      "showEventById": {
+        "download_folder": "event-last-fm",
+        "timestamp": "2016-05-21-23_20_03.642",
+        "doc_count": 0
+      },
+      "showAlbumById": {
+        "download_folder": "music-last-fm",
+        "timestamp": "2016-05-21-23_17_45.379",
+        "doc_count": 0
+      }
+    },
+    "fox.com": {
+      "viewShowsDetails": {
+        "download_folder": "tv-fox",
+        "timestamp": "2016-05-21-21_02_56.303",
+        "doc_count": 51
+      }
+    },
+    "rediff.com": {
+      "showNewsArticleById": {
+        "download_folder": "news-rediff",
+        "timestamp": "2016-05-25-00_14_33.703",
+        "doc_count": 48
+      }
+    },
+    "buzzfeed.com": {
+      "showArticleById": {
+        "download_folder": "news-buzzfeed",
+        "timestamp": "2016-05-25-00_02_20.481",
+        "doc_count": 489
+      }
+    },
+    "eventbrite.com": {
+      "showEventDetailsById": {
+        "download_folder": "event-eventbrite",
+        "timestamp": "2016-05-21-21_08_24.407",
+        "doc_count": 33813
+      }
+    },
+    "youtube.com": {
+      "watchVideo": {
+        "download_folder": "video-youtube",
+        "timestamp": "2016-05-21-23_44_03.957",
+        "doc_count": 4531
+      }
+    },
+    "yelp.com": {
+      "showEventById": {
+        "download_folder": "event-yelp",
+        "timestamp": "2016-05-21-23_41_46.394",
+        "doc_count": 4587
+      }
+    },
+    "espn.go.com": {
+      "showTeamById": {
+        "download_folder": "sports-espn",
+        "timestamp": "2016-05-22-22_35_54.901",
+        "doc_count": 727
+      }
+    },
+    "imdb.com": {
+      "showMovieById": {
+        "download_folder": "movie-imdb-movie",
+        "timestamp": "2016-05-21-23_15_20.129",
+        "doc_count": 1800340
+      },
+      "showActorDetails": {
+        "download_folder": "movie-imdb-actors",
+        "timestamp": "2016-05-21-23_16_44.240",
+        "doc_count": 5111530
+      }
+    },
+    "zappos.com": {
+      "showProduct": {
+        "download_folder": "ecom-zappos",
+        "timestamp": "2016-05-21-23_44_12.888",
+        "doc_count": 72075
+      }
+    },
+    "zomato.com": {
+      "showRestaurantById": {
+        "download_folder": "local-zomato",
+        "timestamp": "2016-05-22-00_05_38.292",
+        "doc_count": 421510
+      }
+    },
+    "etsy.com": {
+      "showProductById": {
+        "download_folder": "ecom-etsy",
+        "timestamp": "2016-05-24-20_04_43.603",
+        "doc_count": 12340352
+      }
+    },
+    "washingtonpost.com": {
+      "showArticleByDetails": {
+        "download_folder": "news-washingtonpost",
+        "timestamp": "2016-05-25-00_12_46.297",
+        "doc_count": 57
+      }
+    },
+    "theguardian.com": {
+      "showNewsByNewsUrl": {
+        "download_folder": "news-theguardian",
+        "timestamp": "2016-05-25-00_13_32.281",
+        "doc_count": 649
+      }
+    },
+    "abc.go.com": {
+      "showSeries": {
+        "download_folder": "tv-abc",
+        "timestamp": "2016-05-24-19_17_26.634",
+        "doc_count": 31
+      }
+    },
+    "eat24.com": {
+      "showRestaurant": {
+        "download_folder": "local-eat24",
+        "timestamp": "2016-05-21-21_00_09.659",
+        "doc_count": 32382
+      }
+    },
+    "fandango.com": {
+      "showMovieDetailsByMovieId": {
+        "download_folder": "movie-fandango-movie",
+        "timestamp": "2016-05-24-19_58_24.189",
+        "doc_count": 335
+      },
+      "showTheaterDetailsByTheaterId": {
+        "download_folder": "movie-fandango-theater",
+        "timestamp": "2016-05-18-07_37_45.597",
+        "doc_count": 3707
+      }
+    },
+    "hulu.com": {
+      "showMovie": {
+        "download_folder": "movie-hulu",
+        "timestamp": "2016-05-21-23_03_43.658",
+        "doc_count": 3419
+      },
+      "viewShow": {
+        "download_folder": "tv-hulu",
+        "timestamp": "2016-05-21-23_03_38.416",
+        "doc_count": 2924
+      }
+    },
+    "flipkart.com": {
+      "showProductById": {
+        "download_folder": "ecom-flipkart",
+        "timestamp": "2016-05-21-21_12_12.206",
+        "doc_count": 285071
+      }
+    },
+    "yellowpages.com": {
+      "showBiz": {
+        "download_folder": "local-yellowpage",
+        "timestamp": "2016-05-23-17_39_31.797",
+        "doc_count": 20649861
+      }
+    },
+    "zillow.com": {
+      "showHomeDetails": {
+        "download_folder": "realestate-zillow",
+        "timestamp": "2016-05-21-23_55_54.933",
+        "doc_count": 114185
+      }
+    },
+    "airbnb.com": {
+      "showRoom": {
+        "download_folder": "hotels-airbnb",
+        "timestamp": "2016-05-21-01_11_18.834",
+        "doc_count": 204687
+      }
+    },
+    "goibibo.com": {
+      "showHotelDetails": {
+        "download_folder": "hotels-goibibo",
+        "timestamp": "2016-05-21-21_05_54.850",
+        "doc_count": 30423
+      }
+    },
+    "myntra.com": {
+      "showProductById": {
+        "download_folder": "ecom-myntra",
+        "timestamp": "2016-05-21-23_26_49.773",
+        "doc_count": 747199
+      }
+    },
+    "expedia.com": {
+      "showHotelDetailsByHotelId": {
+        "download_folder": "hotels-expedia",
+        "timestamp": "2016-05-21-21_03_06.719",
+        "doc_count": 53846
+      }
+    },
+    "foursquare.com": {
+      "showVenueById": {
+        "download_folder": "local-foursquare",
+        "timestamp": "2016-05-21-23_01_59.614",
+        "doc_count": 5278703
+      }
+    },
+    "poshmark.com": {
+      "showProductById": {
+        "download_folder": "ecom-poshmark",
+        "timestamp": "2016-05-24-19_58_49.071",
+        "doc_count": 57185
+      }
+    },
+    "amazon.in": {
+      "showProductById": {
+        "download_folder": "ecom-amazon-in",
+        "timestamp": "2016-05-21-01_07_36.008",
+        "doc_count": 180972
+      }
+    },
+    "foxnews.com": {
+      "showArticle": {
+        "download_folder": "news-foxnews",
+        "timestamp": "2016-05-25-00_11_56.209",
+        "doc_count": 1035
+      }
+    },
+    "wynk.in": {
+      "playSongById": {
+        "download_folder": "music-wynk-in",
+        "timestamp": "2016-05-21-23_55_29.500",
+        "doc_count": 1694951
+      }
+    },
+    "livingsocial.com": {
+      "showDeal": {
+        "download_folder": "deals-livingsocial",
+        "timestamp": "2016-05-22-22_39_08.049",
+        "doc_count": 19614
+      }
+    },
+    "gaana.com": {
+      "playSongByName": {
+        "download_folder": "music-gaana",
+        "timestamp": "2016-05-21-21_03_08.962",
+        "doc_count": 2448
+      }
+    },
+    "snapdeal.com": {
+      "showProductById": {
+        "download_folder": "ecom-snapdeal",
+        "timestamp": "2016-05-21-23_50_47.045",
+        "doc_count": 606776
+      }
+    },
+    "eventful.com": {
+      "showEventById": {
+        "download_folder": "event-eventful",
+        "timestamp": "2016-05-21-06_24_20.044",
+        "doc_count": 0
+      }
+    },
+    "bleacherreport.com": {
+      "showArticleById": {
+        "download_folder": "news-bleacherreport",
+        "timestamp": "2016-05-25-00_13_11.049",
+        "doc_count": 310
+      }
+    },
+    "aliexpress.com": {
+      "showItemById": {
+        "download_folder": "ecom-aliexpress",
+        "timestamp": "2016-05-21-01_15_35.909",
+        "doc_count": 945252
+      }
+    },
+    "vividseats.com": {
+      "showEventById": {
+        "download_folder": "event-vividseats",
+        "timestamp": "2016-05-12-22_40_57.317",
+        "doc_count": 0
+      }
+    },
+    "meetup.com": {
+      "showEventDetailsById": {
+        "download_folder": "event-meetup",
+        "timestamp": "2016-05-21-23_45_48.582",
+        "doc_count": 82938
+      }
+    },
+    "jabong.com": {
+      "showProduct": {
+        "download_folder": "ecom-jabong",
+        "timestamp": "2016-05-21-23_15_20.391",
+        "doc_count": 11163
+      }
+    },
+    "tripadvisor.com": {
+      "showHotel": {
+        "download_folder": "hotels-tripadvisor",
+        "timestamp": "2016-05-21-23_44_27.236",
+        "doc_count": 89046
+      }
+    },
+    "cricbuzz.com": {
+      "showCricketNewsById": {
+        "download_folder": "news-cricbuzz",
+        "timestamp": "2016-05-25-00_03_09.314",
+        "doc_count": 50
+      }
+    },
+    "bookmyshow.com": {
+      "showMovieDetails": {
+        "download_folder": "movie-bookmyshow",
+        "timestamp": "2016-05-21-20_58_10.273",
+        "doc_count": 768
+      }
+    },
+    "vevo.com": {
+      "showVideoByUrl": {
+        "download_folder": "video-vevo",
+        "timestamp": "2016-05-21-23_44_08.273",
+        "doc_count": 150014
+      }
+    },
+    "groupon.com": {
+      "showDealByBiz": {
+        "download_folder": "deals-groupon",
+        "timestamp": "2016-05-21-21_12_10.624",
+        "doc_count": 44639
+      }
+    },
+    "techcrunch.com": {
+      "showArticleDetail": {
+        "download_folder": "news-techcrunch",
+        "timestamp": "2016-05-25-00_05_53.820",
+        "doc_count": 101
+      }
+    },
+    "cnn.com": {
+      "showNews": {
+        "download_folder": "news-cnn",
+        "timestamp": "2016-05-25-00_12_20.878",
+        "doc_count": 931
+      }
+    },
+    "timesofindia.indiatimes.com": {
+      "showNewsById": {
+        "download_folder": "news-timesofindia",
+        "timestamp": "2016-05-25-00_14_08.613",
+        "doc_count": 1280
+      }
+    },
+    "nbcnews.com": {
+      "showNews": {
+        "download_folder": "news-nbcnews",
+        "timestamp": "2016-05-25-00_01_34.510",
+        "doc_count": 111
+      }
+    },
+    "abcnews.go.com": {
+      "showNewsItem": {
+        "download_folder": "news-abcnews",
+        "timestamp": "2016-05-25-00_00_44.427",
+        "doc_count": 343
+      }
+    },
+    "engadget.com": {
+      "showArticleByDetails": {
+        "download_folder": "news-engadget",
+        "timestamp": "2016-05-25-00_03_30.006",
+        "doc_count": 92
+      }
+    },
+    "shopclues.com": {
+      "showProductByName": {
+        "download_folder": "ecom-shopclues",
+        "timestamp": "2016-05-21-23_40_20.278",
+        "doc_count": 216114
+      }
+    },
+    "hotstar.com": {
+      "playVideoByUrl": {
+        "download_folder": "video-hotstar",
+        "timestamp": "2016-05-21-23_04_42.673",
+        "doc_count": 63279
+      }
+    }
+  },
+  "stage": {
+    "makemytrip.com": {
+      "showHotelById": {
+        "download_folder": "hotels-makemytrip",
+        "timestamp": "2016-05-02-23_59_33.639",
+        "doc_count": 4858
+      }
+    },
+    "askme.com": {
+      "showProductById": {
+        "download_folder": "ecom-askme",
+        "timestamp": "2016-05-02-23_51_01.315",
+        "doc_count": 9396
+      }
+    },
+    "fox.com": {
+      "viewShowsDetails": {
+        "download_folder": "tv-fox",
+        "timestamp": "2016-05-20-22_36_37.161",
+        "doc_count": 51
+      }
+    },
+    "rediff.com": {
+      "showNewsArticleById": {
+        "download_folder": "news-rediff",
+        "timestamp": "2016-05-24-14_52_58.451",
+        "doc_count": 54
+      }
+    },
+    "buzzfeed.com": {
+      "showArticleById": {
+        "download_folder": "news-buzzfeed",
+        "timestamp": "2016-05-24-21_52_32.270",
+        "doc_count": 468
+      }
+    },
+    "eventbrite.com": {
+      "showEventDetailsById": {
+        "download_folder": "event-eventbrite",
+        "timestamp": "2016-05-17-09_42_42.426",
+        "doc_count": 33704
+      }
+    },
+    "youtube.com": {
+      "watchVideo": {
+        "download_folder": "video-youtube",
+        "timestamp": "2016-05-17-09_49_03.860",
+        "doc_count": 4531
+      }
+    },
+    "yelp.com": {
+      "showEventById": {
+        "download_folder": "event-yelp",
+        "timestamp": "2016-05-02-17_37_10.190",
+        "doc_count": 5639
+      }
+    },
+    "espn.go.com": {
+      "showTeamById": {
+        "download_folder": "sports-espn",
+        "timestamp": "2016-05-23-22_36_57.029",
+        "doc_count": 727
+      }
+    },
+    "imdb.com": {
+      "showMovieById": {
+        "download_folder": "movie-imdb-movie",
+        "timestamp": "2016-05-02-22_59_28.326",
+        "doc_count": 2122382
+      },
+      "showActorDetails": {
+        "download_folder": "movie-imdb-actors",
+        "timestamp": "2016-05-03-01_37_58.519",
+        "doc_count": 5111530
+      }
+    },
+    "zappos.com": {
+      "showProduct": {
+        "download_folder": "ecom-zappos",
+        "timestamp": "2016-05-03-00_03_04.165",
+        "doc_count": 72075
+      }
+    },
+    "zomato.com": {
+      "showRestaurantById": {
+        "download_folder": "local-zomato",
+        "timestamp": "2016-05-03-01_34_30.907",
+        "doc_count": 282883
+      }
+    },
+    "etsy.com": {
+      "showProductById": {
+        "download_folder": "ecom-etsy",
+        "timestamp": "2016-05-03-01_47_19.276",
+        "doc_count": 12340352
+      }
+    },
+    "washingtonpost.com": {
+      "showArticleByDetails": {
+        "download_folder": "news-washingtonpost",
+        "timestamp": "2016-05-24-14_52_31.761",
+        "doc_count": 75
+      }
+    },
+    "groupon.com": {
+      "showDealByBiz": {
+        "download_folder": "deals-groupon",
+        "timestamp": "2016-05-23-22_36_00.142",
+        "doc_count": 44974
+      }
+    },
+    "abc.go.com": {
+      "showSeries": {
+        "download_folder": "tv-abc",
+        "timestamp": "2016-05-18-20_46_45.743",
+        "doc_count": 28
+      }
+    },
+    "eat24.com": {
+      "showRestaurant": {
+        "download_folder": "local-eat24",
+        "timestamp": "2016-05-02-23_53_48.058",
+        "doc_count": 32382
+      }
+    },
+    "fandango.com": {
+      "showMovieDetailsByMovieId": {
+        "download_folder": "movie-fandango-movie",
+        "timestamp": "2016-05-23-22_09_41.609",
+        "doc_count": 345
+      },
+      "showTheaterDetailsByTheaterId": {
+        "download_folder": "movie-fandango-theater",
+        "timestamp": "2016-05-18-07_37_45.597",
+        "doc_count": 3707
+      }
+    },
+    "hulu.com": {
+      "showMovie": {
+        "download_folder": "movie-hulu",
+        "timestamp": "2016-05-18-18_54_06.964",
+        "doc_count": 3419
+      },
+      "viewShow": {
+        "download_folder": "tv-hulu",
+        "timestamp": "2016-05-23-21_23_09.451",
+        "doc_count": 2834
+      }
+    },
+    "flipkart.com": {
+      "showProductById": {
+        "download_folder": "ecom-flipkart",
+        "timestamp": "2016-05-20-11_41_31.231",
+        "doc_count": 486476
+      }
+    },
+    "last.fm": {
+      "showEventById": {
+        "download_folder": "event-last-fm",
+        "timestamp": "2016-05-18-07_37_33.945",
+        "doc_count": 977
+      },
+      "showAlbumById": {
+        "download_folder": "music-last-fm",
+        "timestamp": "2016-05-23-21_52_41.910",
+        "doc_count": 93044
+      }
+    },
+    "zillow.com": {
+      "showHomeDetails": {
+        "download_folder": "realestate-zillow",
+        "timestamp": "2016-05-18-20_46_53.798",
+        "doc_count": 114185
+      }
+    },
+    "airbnb.com": {
+      "showRoom": {
+        "download_folder": "hotels-airbnb",
+        "timestamp": "2016-05-17-09_36_10.452",
+        "doc_count": 239970
+      }
+    },
+    "goibibo.com": {
+      "showHotelDetails": {
+        "download_folder": "hotels-goibibo",
+        "timestamp": "2016-05-20-11_46_38.419",
+        "doc_count": 30423
+      }
+    },
+    "tmz.com": {
+      "showCelebById": {
+        "download_folder": "celebrity-tmz",
+        "timestamp": "2016-05-24-18_11_53.816",
+        "doc_count": 92
+      }
+    },
+    "myntra.com": {
+      "showProductById": {
+        "download_folder": "ecom-myntra",
+        "timestamp": "2016-05-03-00_03_53.240",
+        "doc_count": 747199
+      }
+    },
+    "expedia.com": {
+      "showHotelDetailsByHotelId": {
+        "download_folder": "hotels-expedia",
+        "timestamp": "2016-05-20-11_38_45.174",
+        "doc_count": 53816
+      }
+    },
+    "foursquare.com": {
+      "showVenueById": {
+        "download_folder": "local-foursquare",
+        "timestamp": "2016-05-04-03_49_33.909",
+        "doc_count": 5278660
+      }
+    },
+    "poshmark.com": {
+      "showProductById": {
+        "download_folder": "ecom-poshmark",
+        "timestamp": "2016-05-03-00_00_32.391",
+        "doc_count": 57185
+      }
+    },
+    "amazon.in": {
+      "showProductById": {
+        "download_folder": "ecom-amazon-in",
+        "timestamp": "2016-05-02-23_53_24.530",
+        "doc_count": 180972
+      }
+    },
+    "foxnews.com": {
+      "showArticle": {
+        "download_folder": "news-foxnews",
+        "timestamp": "2016-05-24-20_52_56.532",
+        "doc_count": 1120
+      }
+    },
+    "wynk.in": {
+      "playSongById": {
+        "download_folder": "music-wynk-in",
+        "timestamp": "2016-05-03-00_07_47.809",
+        "doc_count": 1694951
+      }
+    },
+    "livingsocial.com": {
+      "showDeal": {
+        "download_folder": "deals-livingsocial",
+        "timestamp": "2016-05-23-22_37_19.716",
+        "doc_count": 19615
+      }
+    },
+    "gaana.com": {
+      "playSongByName": {
+        "download_folder": "music-gaana",
+        "timestamp": "2016-05-20-11_38_31.077",
+        "doc_count": 2448
+      }
+    },
+    "snapdeal.com": {
+      "showProductById": {
+        "download_folder": "ecom-snapdeal",
+        "timestamp": "2016-05-03-00_24_21.492",
+        "doc_count": 603663
+      }
+    },
+    "eventful.com": {
+      "showEventById": {
+        "download_folder": "event-eventful",
+        "timestamp": "2016-05-20-08_35_52.204",
+        "doc_count": 13307
+      }
+    },
+    "bleacherreport.com": {
+      "showArticleById": {
+        "download_folder": "news-bleacherreport",
+        "timestamp": "2016-05-24-09_53_35.962",
+        "doc_count": 258
+      }
+    },
+    "aliexpress.com": {
+      "showItemById": {
+        "download_folder": "ecom-aliexpress",
+        "timestamp": "2016-05-03-00_43_08.728",
+        "doc_count": 942643
+      }
+    },
+    "vividseats.com": {
+      "showEventById": {
+        "download_folder": "event-vividseats",
+        "timestamp": "2016-05-12-17_09_02.236",
+        "doc_count": 15088
+      }
+    },
+    "magicbricks.com": {
+      "showPropertyDetailById": {
+        "download_folder": "realestate-magicbricks",
+        "timestamp": "2016-05-18-16_49_45.657",
+        "doc_count": 529021
+      }
+    },
+    "meetup.com": {
+      "showEventDetailsById": {
+        "download_folder": "event-meetup",
+        "timestamp": "2016-05-17-09_45_44.715",
+        "doc_count": 82929
+      }
+    },
+    "shopclues.com": {
+      "showProductByName": {
+        "download_folder": "ecom-shopclues",
+        "timestamp": "2016-05-03-00_02_12.530",
+        "doc_count": 216114
+      }
+    },
+    "tripadvisor.com": {
+      "showHotel": {
+        "download_folder": "hotels-tripadvisor",
+        "timestamp": "2016-05-10-21_32_20.603",
+        "doc_count": 98212
+      }
+    },
+    "cricbuzz.com": {
+      "showCricketNewsById": {
+        "download_folder": "news-cricbuzz",
+        "timestamp": "2016-05-24-20_53_11.507",
+        "doc_count": 47
+      }
+    },
+    "bookmyshow.com": {
+      "showMovieDetails": {
+        "download_folder": "movie-bookmyshow",
+        "timestamp": "2016-05-17-09_35_55.165",
+        "doc_count": 768
+      }
+    },
+    "vevo.com": {
+      "showVideoByUrl": {
+        "download_folder": "video-vevo",
+        "timestamp": "2016-05-23-22_37_07.685",
+        "doc_count": 149089
+      }
+    },
+    "theguardian.com": {
+      "showNewsByNewsUrl": {
+        "download_folder": "news-theguardian",
+        "timestamp": "2016-05-24-14_52_42.008",
+        "doc_count": 681
+      }
+    },
+    "yellowpages.com": {
+      "showBiz": {
+        "download_folder": "local-yellowpage",
+        "timestamp": "2016-05-03-00_30_44.627",
+        "doc_count": 21618761
+      }
+    },
+    "techcrunch.com": {
+      "showArticleDetail": {
+        "download_folder": "news-techcrunch",
+        "timestamp": "2016-05-24-21_52_22.963",
+        "doc_count": 94
+      }
+    },
+    "cnn.com": {
+      "showNews": {
+        "download_folder": "news-cnn",
+        "timestamp": "2016-05-24-18_52_30.274",
+        "doc_count": 888
+      }
+    },
+    "timesofindia.indiatimes.com": {
+      "showNewsById": {
+        "download_folder": "news-timesofindia",
+        "timestamp": "2016-05-24-20_52_32.728",
+        "doc_count": 1511
+      }
+    },
+    "nbcnews.com": {
+      "showNews": {
+        "download_folder": "news-nbcnews",
+        "timestamp": "2016-05-24-20_52_22.577",
+        "doc_count": 108
+      }
+    },
+    "abcnews.go.com": {
+      "showNewsItem": {
+        "download_folder": "news-abcnews",
+        "timestamp": "2016-05-24-21_53_04.770",
+        "doc_count": 786
+      }
+    },
+    "engadget.com": {
+      "showArticleByDetails": {
+        "download_folder": "news-engadget",
+        "timestamp": "2016-05-24-21_12_46.208",
+        "doc_count": 89
+      }
+    },
+    "jabong.com": {
+      "showProduct": {
+        "download_folder": "ecom-jabong",
+        "timestamp": "2016-05-02-23_57_18.767",
+        "doc_count": 11163
+      }
+    },
+    "hotstar.com": {
+      "playVideoByUrl": {
+        "download_folder": "video-hotstar",
+        "timestamp": "2016-05-20-10_36_47.569",
+        "doc_count": 63279
+      }
+    }
+  }
+}
