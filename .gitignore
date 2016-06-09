@@ -1,0 +1,6 @@
+contents_info/.idea/*
+contents_info/__pycache__/*
+
+query_tool/.idea/*
+query_tool/__pycache__/*
+
