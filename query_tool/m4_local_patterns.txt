@@ -1,0 +1,4 @@
+# Sample Query with Frequency
+#[query],1
+#[query][geocity],1
+[query][deal][geocity],1
