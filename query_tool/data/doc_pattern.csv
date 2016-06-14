@@ -1,0 +1,102 @@
+# Format:
+# <grep regular expression>,<vertical>
+#
+# events
+#
+Tai Chi,event
+Home Buyers,event
+YMCA,event
+Music Festival,event
+Zumba Class,event
+Home Buyer Workshop,event
+Networking,event
+Boat Race,event
+Study Mandarin,event
+Bike Ride,event
+Mortgage 101,event
+Leadership Workshop,event
+Parent Education,event
+New Moms,event
+Scrum Workshop,event
+Business Workshop,event
+Programming.*Workshop,event
+Startup Workshop,event
+Hiking Group,event
+Tennis Academy,event
+Summer Camp,event
+Pick Up Soccer,event
+Singles Dance,event
+Dance Class,event
+Car Show,event
+Book Club,event
+Computer Workshop,event
+French Class,event
+Arts Workshop,event
+Yoga Class,event
+Collage Workshop,event
+Adele Live 2016,event
+After School Class,event
+Crawfish Festival,event
+Food for Life,event
+Lightroom Workshop,event
+Concert,event
+Labor Day Fireworks,event
+Summer Concert,event
+Half Marathon,event
+Disney on Ice,event
+Seafood Festival,event
+Sesame Street Live,event
+Family Game Night,event
+Snow White,event
+#
+# deals
+#
+Work Out,deals
+Fitness Class,deals
+Tango Class,deals
+Zumba Class,deals
+Boxing Class,deals
+Yoga Class,deals
+Dance Academy,deals
+Gym Membership,deals
+Ballet Class,deals
+Dancing Class,deals
+Wine Tasting,deals
+Martial Arts,deals
+Custom Facial,deals
+Photo Tours,deals
+Fast Food,deals
+Thai Massage,deals
+Arcade Party Coupons,deals
+Wellness Coaching,deals
+Weight Loss Spa,deals
+Personal Trainers,deals
+Photoshop Course,deals
+Fitness Sessions,deals
+Massage,deals
+Italian Food,deals
+Mexican Food,deals
+Pizza,deals
+Chinese Food,deals
+Baby Photo Package,deals
+Restaurant,deals
+Cinema,deals
+Haircut,deals
+Mexican Grill,deals
+Buffet,deals
+Indian Buffet,deals
+Museum of Science,deals
+Oil Change,deals
+Dental,deals
+Car Rental,deals
+Photoshop Certification,deals
+Foot Therapy,deals
+Spa,deals
+Air Conditioning Tune Up,deals
+Basketball Skills Sessions,deals
+Music class,deals
+Hair Color,deals
+Orthodontic Package,deals
+Tires,deals
+Winemaking Class,deals
+Boot Camp,deals

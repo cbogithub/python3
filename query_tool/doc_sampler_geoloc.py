@@ -11,7 +11,8 @@ import sys
 
 # get sampler data from contents
 
-contents_src = "/media/stage-v4iibe/event*/part"
+contents_src_prefix = "/media/stage-v4iibe/"
+contents_src_postfix = "*/part"
 p = "/part:({.*})$"
 sampler_count = 3
 
@@ -24,8 +25,8 @@ def randomIt(input):
     return input - var
 
 
-def searchSamples(keywords, debug):
-    cmd = "grep \"" + "Yoga Class" + "\" " + contents_src
+def searchSamples(keywords, vertical, debug):
+    cmd = "grep \"" + "Yoga Class" + "\" " + contents_src_prefix + vertical + contents_src_postfix
     if debug:
         print("cmd: " + cmd)
     candidates = []
@@ -39,6 +40,7 @@ def searchSamples(keywords, debug):
         if m:
             d = json.loads(m.group(1))
             sTitle = d["sTitle"]
+            sUrl = d["sUrl"]
             appName = d["appName"]
             sGeoLocation = d["sGeoLocation"]
 
@@ -51,6 +53,7 @@ def searchSamples(keywords, debug):
                 doc = {}
                 doc["appName"] = appName
                 doc["sTitle"] = sTitle
+                doc["sUrl"] = sUrl
                 doc["lat"] = randomIt(latitude)
                 doc["lon"] = randomIt(lontitude)
                 candidates.append(doc)
@@ -69,18 +72,36 @@ def main():
                         help='input csv file"')
     parser.add_argument('-o', '--output', required=True,
                         help='output csv file in utf-8 format')
+    parser.add_argument('-d', '--debug', action="store_true", required=False,
+                        help="enable debugging")
 
     args = parser.parse_args()
 
+    inputFile = args.input
+    outputFile = args.output
+    if (args.debug):
+        debug = True
+    else:
+        debug = False
+
+    terms = qslib.load_rows_csv_file(inputFile)
+    print("read " + str(len(terms)) + " patterns from " + inputFile + ".")
+
     rows = []
-    keywords = "Yoga Class"
-    results = searchSamples(keywords, False)
-    for result in results:
-        row = keywords + "," + str(result["lat"]) + "," + str(result["lon"]) + "," + result["appName"] + "," + result["sTitle"]
-        rows.append(row)
+    for term in terms:
+        words = term.split(',')
+        pattern = words[0]
+        vertical = words[1]
+        results = searchSamples(pattern, vertical, debug)
+        if len(result) == 0:
+            print(pattern + " of " + vertical + " return no results.")
+        for result in results:
+            row = "\"" +pattern + "\"," + "{0:.7f}".format(result["lat"]) + "," + "{0:.7f}".format(result["lon"])\
+                  + "," + result["appName"] + ",\"" + result["sTitle"]+"\"," + result["sUrl"]
+            rows.append(row)
 
-    qslib.write_rows_csv_file(args.output, rows)
-
+    qslib.write_rows_csv_file(outputFile, rows)
+    print("write " + str(len(rows)) + " doc samples to " + outputFile + ".")
 
 if __name__ == "__main__":
     # require python 3
