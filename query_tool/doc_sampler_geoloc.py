@@ -26,7 +26,7 @@ def randomIt(input):
 
 
 def searchSamples(keywords, vertical, debug):
-    cmd = "grep \"" + "Yoga Class" + "\" " + contents_src_prefix + vertical + contents_src_postfix
+    cmd = "grep \"" + keywords + "\" " + contents_src_prefix + vertical + contents_src_postfix
     if debug:
         print("cmd: " + cmd)
     candidates = []
@@ -43,6 +43,9 @@ def searchSamples(keywords, vertical, debug):
             sUrl = d["sUrl"]
             appName = d["appName"]
             sGeoLocation = d["sGeoLocation"]
+            if len(sGeoLocation) == 0:
+                latitude = 0
+                lontitude = 0
 
             for geoloc in sGeoLocation:
                 latitude = float(geoloc["lat"])
@@ -92,16 +95,20 @@ def main():
         words = term.split(',')
         pattern = words[0]
         vertical = words[1]
+        if debug:
+            print(pattern + "," + vertical)
+
         results = searchSamples(pattern, vertical, debug)
-        if len(result) == 0:
+        if len(results) == 0:
             print(pattern + " of " + vertical + " return no results.")
         for result in results:
-            row = "\"" +pattern + "\"," + "{0:.7f}".format(result["lat"]) + "," + "{0:.7f}".format(result["lon"])\
-                  + "," + result["appName"] + ",\"" + result["sTitle"]+"\"," + result["sUrl"]
+            row = "\"" + pattern + "\"," + "{0:.7f}".format(result["lat"]) + "," + "{0:.7f}".format(result["lon"]) \
+                  + "," + result["appName"] + ",\"" + result["sTitle"] + "\"," + result["sUrl"]
             rows.append(row)
 
     qslib.write_rows_csv_file(outputFile, rows)
     print("write " + str(len(rows)) + " doc samples to " + outputFile + ".")
+
 
 if __name__ == "__main__":
     # require python 3

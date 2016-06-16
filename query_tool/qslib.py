@@ -33,10 +33,14 @@ def write_rows_csv_file(file_name, rows):
 
 # read command output
 def readCommandOutput(cmd):
-    response = subprocess.check_output(cmd, shell=True)
+    try:
+        response = subprocess.check_output(cmd, shell=True)
+    except:
+        return []
+
     if (len(response) <= 0):
         print (sys.stderr)
-        return
+        return []
 
     lines = response.splitlines()
     rslt = []
