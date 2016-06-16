@@ -1,3 +1,5 @@
+.DS_Store
+
 contents_info/.idea/*
 contents_info/__pycache__/*
 

@@ -29,3 +29,19 @@ def write_rows_csv_file(file_name, rows):
         # writer.writerows(queries)
         for row in rows:
             ofile.write(row + "\n")
+
+
+# read command output
+def readCommandOutput(cmd):
+    response = subprocess.check_output(cmd, shell=True)
+    if (len(response) <= 0):
+        print (sys.stderr)
+        return
+
+    lines = response.splitlines()
+    rslt = []
+    for line in lines:
+        s = line.strip().decode('utf-8')
+        rslt.append(s)
+
+    return rslt
