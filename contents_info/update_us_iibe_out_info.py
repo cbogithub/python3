@@ -59,7 +59,7 @@ def main():
         print("reading current " + env + " content info from " + iibe_out_s3_key)
 
         try:
-            cp_search_cmd = 's3cmd ls ' + iibe_out_s3_key + ' 2>/dev/null | sed "/0   s3:\/\/quixey-/d" | sed \'s/DIR   //g\' | xargs -I{} sh -c \'s3cmd ls {} | grep "s3:.*" | sed "/0   s3:\/\/quixey-/d" | sed "s/DIR   //g"\' | xargs -I{} sh -c \'s3cmd ls {} | grep "s3:.*" | sed "/0   s3:\/\/quixey-/d" | sed "s/DIR   //g"\''
+            cp_search_cmd = 's3cmd ls ' + iibe_out_s3_key + ' 2>/dev/null | sed "/0   s3:\/\/quixey-/d" | sed \'s/DIR   //g\' | xargs -I{} sh -c \'s3cmd ls {} | grep "s3:.*" | sed "/0  s3:\/\/quixey-/d" | sed "s/DIR   //g"\' | xargs -I{} sh -c \'s3cmd ls {} | grep "s3:.*" | sed "/0   s3:\/\/quixey-/d" | sed "s/DIR   //g"\''
             if debug:
                 print(cp_search_cmd)
             content_list = cplib.readIIBEOutCmd(cp_search_cmd)
@@ -88,7 +88,7 @@ def main():
                                 shell_file.write("cd " + dl_folder + "\n")
                                 shell_file.write("s3cmd sync " + cplib.getCpOutS3Bucket(
                                     iibe_out_s3_key, iibe_key, appName, sFun,
-                                    cur_content[appName][sFun]) + " .\n")
+                                    cur_content[appName][sFun]) + " ./\n")
                                 shell_file.write("cat part-* > part\n")
                                 shell_file.write("rm _*\n")
                                 shell_file.write("rm part-*\n")
