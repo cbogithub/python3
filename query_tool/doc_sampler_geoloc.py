@@ -11,7 +11,8 @@ import sys
 
 # get sampler data from contents
 
-contents_src_prefix = "/media/stage-v4iibe/"
+#contents_src_prefix = "/media/stage-v4iibe/"
+contents_src_prefix = "/Users/dqi/data/stage-iibe-out/"
 contents_src_postfix = "*/part"
 p = "/part:({.*})$"
 sampler_count = 3

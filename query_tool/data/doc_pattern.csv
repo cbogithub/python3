@@ -17,7 +17,6 @@ Mortgage 101,event
 Leadership Workshop,event
 Parent Education,event
 New Moms,event
-Scrum Workshop,event
 Business Workshop,event
 Programming.*Workshop,event
 Startup Workshop,event
@@ -48,6 +47,8 @@ Family Game Night,event
 Pottery Classes,event
 Wine.*Tasting,event
 Fashion Night,event
+Deep Learning,event
+Java User,event
 #
 # deals
 #
@@ -99,3 +100,6 @@ Orthodontic Package,deals
 Tires,deals
 Winemaking Class,deals
 Boot Camp,deals
+Paint Nite,deals
+Weight Loss,deals
+Skin Care,deals
