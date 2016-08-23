@@ -71,7 +71,7 @@ def parseS3IIBEOutput(bucket_list, appname_black_list):
     for bucket in bucket_list:
         #line = bucket.decode()
         line = bucket
-        m = re.search('.*iibe\/(.*)\/(.*)\/(.*)\/', line)
+        m = re.search('.*iibe\/(.*)\/(.*)\/.*(20.*)\/', line)
         if (m):
             appName = m.group(1)
             sFun = m.group(2)
@@ -84,6 +84,7 @@ def parseS3IIBEOutput(bucket_list, appname_black_list):
                 rslt[appName][sFun] = timeStamp
 
     return rslt
+
 
 def parseIndexInfo(raw_index_info):
     rslt = {}
@@ -107,5 +108,7 @@ def parseIndexInfo(raw_index_info):
             rslt[appName][sFun] = item["doc_count"]
     return rslt
 
-def getCpOutS3Bucket(s3_key, iibe_key, appName, sFun, timeStamp):
+def getCpOutS3Bucket(s3_key, iibe_key, appName, sFun, timeStamp, stream = False):
+    if stream:
+        return s3_key + appName + "/" + sFun + "/stream/" + timeStamp + "/" + iibe_key
     return s3_key + appName + "/" + sFun + "/" + timeStamp + "/" + iibe_key

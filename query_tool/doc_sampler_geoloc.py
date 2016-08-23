@@ -20,7 +20,8 @@ sampler_count = 3
 
 def randomIt(input):
     symbol = random.randint(0, 1)
-    var = random.random() / 100
+    # replace var for more randomness
+    var = random.random() / 10
     if symbol == 1:
         return input + var
     return input - var
