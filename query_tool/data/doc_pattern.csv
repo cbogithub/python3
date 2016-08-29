@@ -3,16 +3,16 @@
 #
 # events
 #
+YMCA,event
 Tai Chi,event
 Home Buyers,event
-YMCA,event
 Music Festival,event
 Zumba Class,event
 Home Buyer Workshop,event
 Networking,event
 Boat Race,event
-Learn.*Mandarin,event
 Bike Ride,event
+Learn.*Mandarin,event
 Mortgage 101,event
 Leadership Workshop,event
 Parent Education,event
@@ -36,11 +36,9 @@ Collage Workshop,event
 After School,event
 Crawfish Festival,event
 Food for Life,event
-Lightroom Workshop,event
 Concert,event
 Summer Concert,event
 Half Marathon,event
-Disney on Ice,event
 Seafood Festival,event
 Sesame Street Live,event
 Family Game Night,event
@@ -68,7 +66,6 @@ Custom Facial,deals
 Photo Tours,deals
 Fast Food,deals
 Thai Massage,deals
-Arcade Party,deals
 Wellness Coaching,deals
 Weight Loss Spa,deals
 Personal Trainers,deals
@@ -79,13 +76,11 @@ Italian Food,deals
 Mexican Food,deals
 Pizza,deals
 Chinese Food,deals
-Baby Photo Package,deals
 Restaurant,deals
 Cinema,deals
 Haircut,deals
 Mexican Grill,deals
 Buffet,deals
-Indian Buffet,deals
 Oil Change,deals
 Dental,deals
 Car Rental,deals
@@ -93,7 +88,6 @@ Photoshop Certification,deals
 Foot Therapy,deals
 Spa,deals
 Air Conditioning Tune Up,deals
-Basketball Skills Sessions,deals
 Music Class,deals
 Hair Color,deals
 Orthodontic Package,deals
