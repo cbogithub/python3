@@ -11,7 +11,8 @@ import sys
 
 # get sampler data from contents
 
-contents_src_prefix = "/media/stage-v4iibe/"
+#contents_src_prefix = "/media/stage-v4iibe/"
+contents_src_prefix = "/Users/dqi/data/stage-iibe-out/"
 contents_src_postfix = "*/part"
 p = "/part:({.*})$"
 sampler_count = 3
@@ -19,7 +20,8 @@ sampler_count = 3
 
 def randomIt(input):
     symbol = random.randint(0, 1)
-    var = random.random() / 100
+    # replace var for more randomness
+    var = random.random() / 10
     if symbol == 1:
         return input + var
     return input - var

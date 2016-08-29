@@ -19,6 +19,11 @@ appname_exclude_list = [
     "viewster.com"
 ]
 
+stream_app = [
+    "cnn.com/showNews",
+    "washingtonpost.com/showArticleByDetails"
+]
+
 
 def main():
     # parse arguments
