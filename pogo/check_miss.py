@@ -12,6 +12,7 @@ def load_rows_csv_file(file_name):
     with open(file_name, newline='', encoding='utf-8') as ifile:
         reader = csv.reader(ifile)
         for row in reader:
+            row = row.strip()
             num_cols = len(row)
             if num_cols < 1:
                 continue
