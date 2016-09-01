@@ -1,51 +1,81 @@
-﻿Doduo
+Top Pokemon List by IV%:
+Goldeen: 98.44% 549
+Dragonair: 98.26% 235
+Dragonite: 98.22% 1496
+Dragonite: 98.22% 1397
+Dragonite: 98.22% 260
+Drowzee: 96.81% 15
+Dratini: 96.48% 445
+Eevee: 94.90% 395
+Magikarp: 94.65% 132
+Eevee: 94.56% 486
+Tauros: 94.55% 1044
+Nidorino: 93.00% 773
+Seel: 92.96% 311
+Raticate: 92.02% 20
+Snorlax: 91.98% 43
+Ponyta: 91.85% 156
+Omanyte: 91.28% 753
+Seaking: 91.25% 211
+Kabuto: 89.94% 15
+Venomoth: 89.62% 1061
+Arbok: 89.31% 991
+Eevee: 89.04% 540
+Eevee: 89.04% 14
+Krabby: 88.92% 439
+Staryu: 88.80% 12
+Eevee: 88.11% 109
+Vulpix: 87.73% 460
+Horsea: 87.19% 57
+Chansey: 87.14% 125
+Hitmonchan: 87.12% 465
+
+
+Pokemon to be caught:
 Electrode
 Graveler
-Grimer
 Haunter
 Kabutops
-Machoke
-Magneton
-Persian
 Vileplume
-Mankey
+
 Sandslash
+Persian
+Mankey
+Machoke
 Slowpoke
+Magneton
+Doduo
+Grimer
 
 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
 
-PokeSniper2.exe
 PokeSniper2.exe 
 PokeSniper2.exe 
 PokeSniper2.exe 
 PokeSniper2.exe 
 PokeSniper2.exe 
 
-PokeSniper2.exe
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-PokeSniper2.exe 
-
-PokeSniper2.exe
 PokeSniper2.exe 
 PokeSniper2.exe 
 PokeSniper2.exe 
 PokeSniper2.exe 
 PokeSniper2.exe 
 
-PokeSniper2.exe
 PokeSniper2.exe 
 PokeSniper2.exe 
-PokeSniper2.exe
-PokeSniper2.exe
-PokeSniper2.exe
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
 

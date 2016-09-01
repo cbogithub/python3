@@ -1,8 +1,0 @@
-  "PokemonsNotToTransfer": [
-    "ditto",
-    "articuno",
-    "zapdos",
-    "moltres",
-    "mewtwo",
-    "mew"
-  ],

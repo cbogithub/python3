@@ -41,7 +41,7 @@ def parse_bot_dump_file(file_name, debug):
                     name = "NidoranMale"
 
                 if name == "Nidoran (Female)":
-                    name = "NidoranFeMale"
+                    name = "NidoranFemale"
 
                 if name == "Mr. Mime":
                     name = "MrMime"
