@@ -1,62 +1,66 @@
-﻿Abra
-Alakazam
-Articuno
-Caterpie
-Chansey
-Charmander
-Diglett
-Ditto
+﻿Charmander
 Doduo
 Drowzee
-Dugtrio
 Electrode
 Graveler
-Growlithe
 Haunter
 Hitmonlee
-Jolteon
-Machamp
 Machoke
 Magnemite
 Magneton
 Ninetales
 Persian
-Pikachu
-Rhydon
-Slowpoke
-Victreebel
 Voltorb
 Vulpix
-Zapdos
+Bulbasaur
+Diglett
+Abra
+Pikachu
+Slowpoke
 
-PokeSniper2.exe Machamp 51.514774 -0.08094 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 
-PokeSniper2.exe Nidoqueen 40.748286 -73.843514 
-PokeSniper2.exe Poliwrath 42.359691 -71.049451 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 
-PokeSniper2.exe Porygon 39.973985 -83.004537 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 
-PokeSniper2.exe Wartortle 40.766142 -73.998016 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 
-PokeSniper2.exe Weezing 41.91283 -87.710526 
-PokeSniper2.exe 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 
-PokeSniper2.exe 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 
-PokeSniper2.exe 
-
-PokeSniper2.exe 
-PokeSniper2.exe 
-
-PokeSniper2.exe 
-
-PokeSniper2.exe 
-
-PokeSniper2.exe 
-PokeSniper2.exe 
-
-PokeSniper2.exe 
-
-PokeSniper2.exe 
-
-PokeSniper2.exe 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe

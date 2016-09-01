@@ -1,32 +1,51 @@
-﻿
-Alakazam
-Charizard
-Dewgong
-Doduo
+﻿Doduo
 Electrode
 Graveler
 Grimer
 Haunter
 Kabutops
-Machamp
 Machoke
 Magneton
-Mankey
-Muk
-Nidoking
 Persian
+Vileplume
+Mankey
 Sandslash
 Slowpoke
-Vileplume
 
-
-
-
-PokeSniper2.exe Kabutops 1.34809 103.833264 
 
 PokeSniper2.exe 
-
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
 PokeSniper2.exe 
 
+PokeSniper2.exe
 PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+
+PokeSniper2.exe
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+
+PokeSniper2.exe
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe 
+
+PokeSniper2.exe
+PokeSniper2.exe 
+PokeSniper2.exe 
+PokeSniper2.exe
+PokeSniper2.exe
+PokeSniper2.exe
 

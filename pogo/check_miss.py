@@ -3,23 +3,177 @@
 
 import argparse
 import csv
-import random
+import pogolib
 import sys
 
-# load csv file
-def load_rows_csv_file(file_name):
-    rows = []
-    with open(file_name, newline='', encoding='utf-8') as ifile:
-        reader = csv.reader(ifile)
-        for row in reader:
-            row = row.strip()
-            num_cols = len(row)
-            if num_cols < 1:
-                continue
-            if row[0].startswith('#'):
-                continue
-            rows.append(",".join(row))
-    return rows
+
+#Nidoran♀
+#Nidoran♂
+
+all_pokemon = [
+    "Bulbasaur",
+    "Ivysaur",
+    "Venusaur",
+    "Charmander",
+    "Charmeleon",
+    "Charizard",
+    "Squirtle",
+    "Wartortle",
+    "Blastoise",
+    "Caterpie",
+    "Metapod",
+    "Butterfree",
+    "Weedle",
+    "Kakuna",
+    "Beedrill",
+    "Pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "Rattata",
+    "Raticate",
+    "Spearow",
+    "Fearow",
+    "Ekans",
+    "Arbok",
+    "Pikachu",
+    "Raichu",
+    "Sandshrew",
+    "Sandslash",
+    "NidoranFemale",
+    "Nidorina",
+    "Nidoqueen",
+    "NidoranMale",
+    "Nidorino",
+    "Nidoking",
+    "Clefairy",
+    "Clefable",
+    "Vulpix",
+    "Ninetales",
+    "Jigglypuff",
+    "Wigglytuff",
+    "Zubat",
+    "Golbat",
+    "Oddish",
+    "Gloom",
+    "Vileplume",
+    "Paras",
+    "Parasect",
+    "Venonat",
+    "Venomoth",
+    "Diglett",
+    "Dugtrio",
+    "Meowth",
+    "Persian",
+    "Psyduck",
+    "Golduck",
+    "Mankey",
+    "Primeape",
+    "Growlithe",
+    "Arcanine",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Abra",
+    "Kadabra",
+    "Alakazam",
+    "Machop",
+    "Machoke",
+    "Machamp",
+    "Bellsprout",
+    "Weepinbell",
+    "Victreebel",
+    "Tentacool",
+    "Tentacruel",
+    "Geodude",
+    "Graveler",
+    "Golem",
+    "Ponyta",
+    "Rapidash",
+    "Slowpoke",
+    "Slowbro",
+    "Magnemite",
+    "Magneton",
+    "Farfetchd",
+    "Doduo",
+    "Dodrio",
+    "Seel",
+    "Dewgong",
+    "Grimer",
+    "Muk",
+    "Shellder",
+    "Cloyster",
+    "Gastly",
+    "Haunter",
+    "Gengar",
+    "Onix",
+    "Drowzee",
+    "Hypno",
+    "Krabby",
+    "Kingler",
+    "Voltorb",
+    "Electrode",
+    "Exeggcute",
+    "Exeggutor",
+    "Cubone",
+    "Marowak",
+    "Hitmonlee",
+    "Hitmonchan",
+    "Lickitung",
+    "Koffing",
+    "Weezing",
+    "Rhyhorn",
+    "Rhydon",
+    "Chansey",
+    "Tangela",
+    "Kangaskhan",
+    "Horsea",
+    "Seadra",
+    "Goldeen",
+    "Seaking",
+    "Staryu",
+    "Starmie",
+    "MrMime",
+    "Scyther",
+    "Jynx",
+    "Electabuzz",
+    "Magmar",
+    "Pinsir",
+    "Tauros",
+    "Magikarp",
+    "Gyarados",
+    "Lapras",
+    "Ditto",
+    "Eevee",
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Porygon",
+    "Omanyte",
+    "Omastar",
+    "Kabuto",
+    "Kabutops",
+    "Aerodactyl",
+    "Snorlax",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Dratini",
+    "Dragonair",
+    "Dragonite",
+    "Mewtwo",
+    "Mew",
+]
+
+pokemon_not_catachable = [
+    "Ditto",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Mewtwo",
+    "Mew",
+]
+
+TOP = 30
 
 # write csv file
 def write_rows_csv_file(file_name, rows):
@@ -34,35 +188,63 @@ def write_rows_csv_file(file_name, rows):
 # Wrote diff inside first file, with the same order
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i1', '--input1', required=True,
-                        help='input csv file 1 in utf-8 format"')
-    parser.add_argument('-i2', '--input2', required=True,
-                        help='input csv file 2 in utf-8 format"')
+    parser.add_argument('-i', '--input', required=True,
+                        help='bot dump text file')
     parser.add_argument('-o', '--output', required=True,
                         help='output csv file in utf-8 format')
-    parser.add_argument('-s', '--shuffle', action="store_true", required=False,
-                        help="shuffle return results")
+    parser.add_argument('-d', '--debug', action="store_true", required=False,
+                        help="enable debugging")
 
     args = parser.parse_args()
 
-    query_list1 = load_rows_csv_file(args.input1)
-    print("read " + str(len(query_list1)) + " records from " + args.input1 + ".")
-    query_list2 = load_rows_csv_file(args.input2)
-    print("read " + str(len(query_list2)) + " records from " + args.input2 + ".")
+    inputFile = args.input
+    outputFile = args.output
+    if (args.debug):
+        debug = True
+    else:
+        debug = False
 
-    query_set = set(query_list1) - set(query_list2)
-    print("first query set has " + str(len(query_set)) + " entries left")
+    caught_pokemon_list = pogolib.parse_bot_dump_file(inputFile, debug)
+    print("read " + str(len(caught_pokemon_list)) + " pokemons from " + inputFile + ".")
 
-    query_list3 = []
-    for query in query_list1:
-        if query in query_set:
-            query_list3.append(query)
+    caught_pokemons = []
+    for pokemon in caught_pokemon_list:
+        if pokemon["name"] not in caught_pokemons:
+            caught_pokemons.append(pokemon["name"])
 
-    if args.shuffle:
-        random.shuffle(query_list3)
+    print("This id has " + str(len(caught_pokemons)) + " unique pokemons. Available pokemon to catch is 145.")
 
-    write_rows_csv_file(args.output, query_list3)
+    missed_pokemon_list = []
+    for pokemon in all_pokemon:
+        if pokemon not in caught_pokemons and pokemon not in pokemon_not_catachable:
+            missed_pokemon_list.append(pokemon)
 
+    print("Find " + str(len(missed_pokemon_list)) + " missing pokemons.")
+
+    with open(outputFile, 'w', encoding='utf-8') as ofile:
+        ofile.write("Top Pokemon List by IV%:\n")
+        count = 1
+        for pokemon in caught_pokemon_list:
+            ofile.write(pokemon["name"] + ": " + pokemon["iv"] + " " + pokemon["cp"] + "\n")
+            count += 1
+            if (count > 30):
+                break;
+
+
+        ofile.write("\n\nPokemon to be caught:\n")
+        for pokemon in missed_pokemon_list:
+            ofile.write(pokemon+"\n")
+
+        ofile.write("\n\n")
+        for _ in range(5):
+            ofile.write("PokeSniper2.exe \n")
+            ofile.write("PokeSniper2.exe \n")
+            ofile.write("PokeSniper2.exe \n")
+            ofile.write("PokeSniper2.exe \n")
+            ofile.write("PokeSniper2.exe \n")
+            ofile.write("\n")
+
+    print("update data to " + outputFile)
 
 if __name__ == "__main__":
     # require python 3
